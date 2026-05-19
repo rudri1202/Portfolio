@@ -1,20 +1,28 @@
 import React from 'react';
-import Typewriter from  'typewriter-effect';
+import Typewriter from 'typewriter-effect';
 
 const Typed = () => {
   return (
     <div className="TypeEffect">
       <Typewriter
         options={{
-          strings: ['Software Geek..!!', 'Full Stack Developer :)', 'Passionate Learner..!!', 'Sports Enthusiast :3'],
+          strings: [
+            'Software Engineer',
+            'Full-Stack Developer',
+            'Backend Engineer',
+            'AI / ML Enthusiast',
+            'Ex-Microsoft Intern',
+            'DSA Problem Solver',
+            'Open to Opportunities',
+          ],
           autoStart: true,
           loop: true,
-          delay: 70,
-          deleteSpeed:20,
+          delay: 60,
+          deleteSpeed: 25,
         }}
       />
     </div>
-  )
-}
+  );
+};
 
-export default Typed
+export default Typed;
